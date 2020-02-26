@@ -1,0 +1,22 @@
+
+
+
+
+
+isActive = True
+Z1 = [None]*180
+Z2 = [None]*180
+Z3 = [None]*180
+Z4 = [None]*180
+    
+while(isActive):
+    for i in range(180):
+        Z1[i]= 255-i
+        Z2[i]= i
+        Z3[i]= 255-i
+        Z4[i]= i
+    ObereZeile(Z1, Z2, Z3, Z4)
+    #UntereZeile()
+    #MitteUnten()
+
+
